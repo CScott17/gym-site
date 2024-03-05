@@ -1,0 +1,41 @@
+.classes-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  margin-top: 2.2rem;
+  color: white;
+}
+
+.classes-container h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.classes-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.class-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 30%;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #9400ff;
+  border-radius: 5px;
+}
+
+.class-card img {
+  width: 100%;
+  height: auto;
+}
+
+.class-card button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

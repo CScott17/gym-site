@@ -1,0 +1,82 @@
+.pricing-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+}
+
+.pricing-title {
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.pricing-description {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.membership-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  min-width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 40px;
+  height: 800px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.membership-card p {
+  font-size: 24px;
+  color: rgb(181, 129, 231);
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.membership-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 2px;
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.card-image {
+  max-height: 400px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.price {
+  font-size: 24px;
+  color: #333;
+}
+
+.card-button {
+  align-self: center; /* Center button horizontally */
+  margin-top: auto; /* Pushes the button to the bottom */
+  width: 75%; /* Adjust width as needed */
+  padding: 10px 0; /* Adjust padding for better button height */
+  background-color: var(--tertiary-color);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center; /* Ensure text is centered if not using <button> or <input> */
+}
+
+.card-button:hover {
+  background-color: var(--tertiary-color-dark);
+}

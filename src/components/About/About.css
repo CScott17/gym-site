@@ -1,0 +1,22 @@
+.about-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  height: 100vh;
+  margin-top: 2.2rem;
+  color: white;
+}
+
+.goals-section {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.goals-section .text-content {
+  width: 50%;
+}
+
+.goals-section .image-content {
+  width: 50%;
+  margin-left: 50px;
+}
