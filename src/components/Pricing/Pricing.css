@@ -66,17 +66,75 @@
 }
 
 .card-button {
-  align-self: center; /* Center button horizontally */
-  margin-top: auto; /* Pushes the button to the bottom */
-  width: 75%; /* Adjust width as needed */
-  padding: 10px 0; /* Adjust padding for better button height */
+  align-self: center;
+  margin-top: auto;
+  width: 75%;
+  padding: 10px 0;
   background-color: var(--tertiary-color);
   color: white;
   border-radius: 5px;
   cursor: pointer;
-  text-align: center; /* Ensure text is centered if not using <button> or <input> */
+  text-align: center;
 }
 
 .card-button:hover {
   background-color: var(--tertiary-color-dark);
+}
+/* Home.css */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h3 {
+  color: #555;
+}
+
+p {
+  color: #777;
+}
+
+.pricing-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 30%;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #9400ff;
+}
+
+.pricing-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
 }
